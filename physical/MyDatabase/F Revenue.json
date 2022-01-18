@@ -1,0 +1,25 @@
+{
+  "physicalTable" : {
+    "name" : "F Revenue",
+    "sourceTable" : "physicalTable:MyDatabase.SAMP_REVENUE_F",
+    "caching" : {
+      "enable" : false,
+      "expiryTime" : 0,
+      "expiryUnit" : "DAYS"
+    },
+    "overrideSourceCacheSetting" : true,
+    "joins": [{
+            "joinTable": "physicalTable:MyDatabase.D Products",
+            "useJoinExpression": false,
+            "joinType": "INNER",
+            "cardinality": "MANY_TO_ONE",
+            "joinConditions": [
+               {
+                  "sourceColumn": "physicalColumn:MyDatabase.F Revenue.PROD_KEY",
+                  "joinColumn": "physicalColumn:MyDatabase.D Products.PROD_KEY"
+               }
+            ],
+            "name": "MyDatabase.F Revenue-MyDatabase.D Products"
+       }]
+  }
+}

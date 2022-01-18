@@ -1,0 +1,13 @@
+{
+  "businessModel" : {
+    "name" : "MyBusinessModel",
+    "disable" : false,
+    "joins" : [ {
+      "leftTable" : "logicalTable:MyBusinessModel.F Revenue",
+      "rightTable" : "logicalTable:MyBusinessModel.D Products",
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "drivingTable" : "None"
+    } ]
+  }
+}

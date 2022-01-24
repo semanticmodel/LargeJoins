@@ -9,14 +9,14 @@
     },
     "overrideSourceCacheSetting" : true,
     "joins": [{
-            "joinTable": "physicalTable:MyDatabase.D Products",
+            "rightTable": "physicalTable:MyDatabase.D Products",
             "useJoinExpression": false,
             "joinType": "INNER",
             "cardinality": "MANY_TO_ONE",
             "joinConditions": [
                {
-                  "sourceColumn": "physicalColumn:MyDatabase.F Revenue.PROD_KEY",
-                  "joinColumn": "physicalColumn:MyDatabase.D Products.PROD_KEY"
+                  "leftColumn": "physicalColumn:MyDatabase.F Revenue.PROD_KEY",
+                  "rightColumn": "physicalColumn:MyDatabase.D Products.PROD_KEY"
                }
             ],
             "name": "MyDatabase.F Revenue-MyDatabase.D Products"

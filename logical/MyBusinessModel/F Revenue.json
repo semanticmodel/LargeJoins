@@ -1,6 +1,7 @@
 {
   "logicalTable" : {
     "name" : "F Revenue",
+    "description" : "123",
     "type" : "FACT",
     "logicalColumns" : [ {
       "name" : "SHIPTO_ADDR_KEY",
@@ -11,8 +12,7 @@
         "physicalMappings" : [ {
           "logicalTableSource" : "F Revenue",
           "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:MyDatabase.F Revenue.SHIPTO_ADDR_KEY" ]
+            "expressionTemplate" : "%1"
           }
         } ]
       }
@@ -25,8 +25,7 @@
         "physicalMappings" : [ {
           "logicalTableSource" : "F Revenue",
           "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:MyDatabase.F Revenue.OFFICE_KEY" ]
+            "expressionTemplate" : "%1"
           }
         } ]
       }
@@ -39,8 +38,7 @@
         "physicalMappings" : [ {
           "logicalTableSource" : "F Revenue",
           "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:MyDatabase.F Revenue.EMPL_KEY" ]
+            "expressionTemplate" : "%1"
           }
         } ]
       }
@@ -53,8 +51,7 @@
         "physicalMappings" : [ {
           "logicalTableSource" : "F Revenue",
           "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:MyDatabase.F Revenue.PROD_KEY" ]
+            "expressionTemplate" : "%1"
           }
         } ]
       }
@@ -67,8 +64,7 @@
         "physicalMappings" : [ {
           "logicalTableSource" : "F Revenue",
           "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:MyDatabase.F Revenue.ORDER_KEY" ]
+            "expressionTemplate" : "%1"
           }
         } ]
       }
@@ -81,8 +77,7 @@
         "physicalMappings" : [ {
           "logicalTableSource" : "F Revenue",
           "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:MyDatabase.F Revenue.UNITS" ]
+            "expressionTemplate" : "%1"
           }
         } ]
       }
@@ -95,8 +90,7 @@
         "physicalMappings" : [ {
           "logicalTableSource" : "F Revenue",
           "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:MyDatabase.F Revenue.DISCNT_VALUE" ]
+            "expressionTemplate" : "%1"
           }
         } ]
       }
@@ -109,8 +103,7 @@
         "physicalMappings" : [ {
           "logicalTableSource" : "F Revenue",
           "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:MyDatabase.F Revenue.BILL_MTH_KEY" ]
+            "expressionTemplate" : "%1"
           }
         } ]
       }
@@ -123,8 +116,7 @@
         "physicalMappings" : [ {
           "logicalTableSource" : "F Revenue",
           "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:MyDatabase.F Revenue.BILL_QTR_KEY" ]
+            "expressionTemplate" : "%1"
           }
         } ]
       }
@@ -137,8 +129,7 @@
         "physicalMappings" : [ {
           "logicalTableSource" : "F Revenue",
           "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:MyDatabase.F Revenue.BILL_DAY_DT" ]
+            "expressionTemplate" : "%1"
           }
         } ]
       }
@@ -151,8 +142,7 @@
         "physicalMappings" : [ {
           "logicalTableSource" : "F Revenue",
           "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:MyDatabase.F Revenue.ORDER_DAY_DT" ]
+            "expressionTemplate" : "%1"
           }
         } ]
       }
@@ -165,8 +155,7 @@
         "physicalMappings" : [ {
           "logicalTableSource" : "F Revenue",
           "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:MyDatabase.F Revenue.PAID_DAY_DT" ]
+            "expressionTemplate" : "%1"
           }
         } ]
       }
@@ -179,8 +168,7 @@
         "physicalMappings" : [ {
           "logicalTableSource" : "F Revenue",
           "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:MyDatabase.F Revenue.DISCNT_RATE" ]
+            "expressionTemplate" : "%1"
           }
         } ]
       }
@@ -193,8 +181,7 @@
         "physicalMappings" : [ {
           "logicalTableSource" : "F Revenue",
           "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:MyDatabase.F Revenue.ORDER_STATUS" ]
+            "expressionTemplate" : "%1"
           }
         } ]
       }
@@ -207,8 +194,7 @@
         "physicalMappings" : [ {
           "logicalTableSource" : "F Revenue",
           "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:MyDatabase.F Revenue.CURRENCY" ]
+            "expressionTemplate" : "%1"
           }
         } ]
       }
@@ -221,8 +207,7 @@
         "physicalMappings" : [ {
           "logicalTableSource" : "F Revenue",
           "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:MyDatabase.F Revenue.ORDER_TYPE" ]
+            "expressionTemplate" : "%1"
           }
         } ]
       }
@@ -235,8 +220,7 @@
         "physicalMappings" : [ {
           "logicalTableSource" : "F Revenue",
           "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:MyDatabase.F Revenue.CUST_KEY" ]
+            "expressionTemplate" : "%1"
           }
         } ]
       }
@@ -249,8 +233,7 @@
         "physicalMappings" : [ {
           "logicalTableSource" : "F Revenue",
           "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:MyDatabase.F Revenue.SHIP_DAY_DT" ]
+            "expressionTemplate" : "%1"
           }
         } ]
       }
@@ -263,8 +246,7 @@
         "physicalMappings" : [ {
           "logicalTableSource" : "F Revenue",
           "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:MyDatabase.F Revenue.COST_FIXED" ]
+            "expressionTemplate" : "%1"
           }
         } ]
       }
@@ -277,8 +259,7 @@
         "physicalMappings" : [ {
           "logicalTableSource" : "F Revenue",
           "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:MyDatabase.F Revenue.COST_VARIABLE" ]
+            "expressionTemplate" : "%1"
           }
         } ]
       }
@@ -291,8 +272,7 @@
         "physicalMappings" : [ {
           "logicalTableSource" : "F Revenue",
           "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:MyDatabase.F Revenue.SRC_ORDER_NUMBER" ]
+            "expressionTemplate" : "%1"
           }
         } ]
       }
@@ -305,8 +285,7 @@
         "physicalMappings" : [ {
           "logicalTableSource" : "F Revenue",
           "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:MyDatabase.F Revenue.ORDER_NUMBER" ]
+            "expressionTemplate" : "%1"
           }
         } ]
       }
@@ -319,8 +298,7 @@
         "physicalMappings" : [ {
           "logicalTableSource" : "F Revenue",
           "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:MyDatabase.F Revenue.REVENUE" ]
+            "expressionTemplate" : "%1"
           }
         } ]
       }
@@ -333,8 +311,7 @@
         "physicalMappings" : [ {
           "logicalTableSource" : "F Revenue",
           "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:MyDatabase.F Revenue.ORDER_DTIME1_DB_TZ" ]
+            "expressionTemplate" : "%1"
           }
         } ]
       }
@@ -347,8 +324,7 @@
         "physicalMappings" : [ {
           "logicalTableSource" : "F Revenue",
           "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:MyDatabase.F Revenue.ORDER_DTIME2_TIMEZONE" ]
+            "expressionTemplate" : "%1"
           }
         } ]
       }
@@ -361,8 +337,7 @@
         "physicalMappings" : [ {
           "logicalTableSource" : "F Revenue",
           "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:MyDatabase.F Revenue.ORDER_DTIME2_CUSTOM_TZ" ]
+            "expressionTemplate" : "%1"
           }
         } ]
       }
@@ -370,12 +345,15 @@
     "logicalTableSources" : [ {
       "name" : "F Revenue",
       "disable" : false,
-      "tableMapping" : {
-        "tables" : [ "physicalTable:MyDatabase.F Revenue" ]
-      },
       "combineWithOtherFragments" : false,
       "enableFragmentSelection" : false,
       "distinctValues" : false
+    } ],
+    "joins" : [ {
+      "leftTable" : "logicalTable:MyBusinessModel.F Revenue",
+      "rightTable" : "logicalTable:MyBusinessModel.D Products",
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
     } ]
   }
 }

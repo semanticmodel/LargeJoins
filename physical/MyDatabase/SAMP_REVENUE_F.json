@@ -132,6 +132,38 @@
       "dataType" : "TIMESTAMP",
       "length" : 0,
       "nullable" : false
+    } ],
+    "caching" : {
+      "enable" : false,
+      "expiryTime" : 0
+    },
+    "joins" : [ {
+      "rightTable" : "physicalTable:MyDatabase.SAMP_CUSTOMERS_D",
+      "useJoinExpression" : false,
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:MyDatabase.SAMP_REVENUE_F.CUST_KEY",
+        "rightColumn" : "physicalColumn:MyDatabase.SAMP_CUSTOMERS_D.CUST_KEY"
+      } ]
+    }, {
+      "rightTable" : "physicalTable:MyDatabase.SAMP_OFFICES_D",
+      "useJoinExpression" : false,
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:MyDatabase.SAMP_REVENUE_F.OFFICE_KEY",
+        "rightColumn" : "physicalColumn:MyDatabase.SAMP_OFFICES_D.OFFICE_KEY"
+      } ]
+    }, {
+      "rightTable" : "physicalTable:MyDatabase.SAMP_PRODUCTS_D",
+      "useJoinExpression" : false,
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:MyDatabase.SAMP_REVENUE_F.PROD_KEY",
+        "rightColumn" : "physicalColumn:MyDatabase.SAMP_PRODUCTS_D.PROD_KEY"
+      } ]
     } ]
   }
 }
